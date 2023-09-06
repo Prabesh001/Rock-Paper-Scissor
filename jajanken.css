@@ -1,0 +1,40 @@
+body{
+  background-color: rgba(0, 0, 0, 0.897);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+button[title]{
+  padding: 30px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: transparent;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.icons{
+  height: 50px;
+}
+
+.result{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.score{
+  margin-top: 60px;
+}
+
+.reset-button{
+  padding: 8px 15px;
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}

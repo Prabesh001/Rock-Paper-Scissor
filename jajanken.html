@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="jajanken.css">
+</head>
+
+<body>
+  <p class="title">Rock-Paper-Scissors</p>
+  <button title="Rock" onclick="playGame('Rock');
+  "><img src="Rock-emoji.png" class="icons"></button>
+
+  <button title="Paper" onclick="playGame('Paper');
+  "><img src="Paper-emoji.png" class="icons"></button>
+
+  <button title="Scissors" onclick=" 
+    playGame('Scissors');
+  "><img src="Scissors-emoji.png" class="icons"></button>
+
+
+  <p class="result" id="result"></p>
+
+  <p id="verdict"></p>
+
+  <p class="js-score score"></p>
+
+  <button onclick="
+  score.wins =0; score.losses =0; score.ties=0;
+  localStorage.removeItem('score');
+  updateScore();
+  " class="reset-button">Reset Score</button>
+
+  <script src="jajanken.js"></script>
+
+</body>
+</html>
